@@ -9,7 +9,7 @@ class SpaceRocketFighter < Gosu::Window
 
     def initialize
         super(640, 400, false)
-        self.caption = "Space Rocket Fighter"
+        self.caption = "Space Rocket Jam"
         
         @background_image = Gosu::Image.new('assets/space.png', :tileable =>true)
         @song = Gosu::Song.new("assets/song.ogg")
