@@ -5,7 +5,7 @@ require_relative 'star'
 $game_over = false
 $game_started = false
 
-class SpaceRocketFighter < Gosu::Window
+class SpaceRocketJam < Gosu::Window
 
     def initialize
         super(640, 400, false)
@@ -122,15 +122,10 @@ class SpaceRocketFighter < Gosu::Window
             super
         end
     end
-
-    def set_limit(value)
-        @time_limit = value
-    end
-
 end
 
 module ZOrder
     BACKGROUND, STARS, PLAYER, UI = *0..3
 end
 
-SpaceRocketFighter.new.show
+SpaceRocketJam.new.show

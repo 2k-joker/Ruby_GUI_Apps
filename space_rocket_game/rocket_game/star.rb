@@ -1,3 +1,4 @@
+
 class Star
     attr_reader :x, :y
 

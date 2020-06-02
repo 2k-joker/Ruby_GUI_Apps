@@ -1,4 +1,5 @@
 
+
 class Player
     def initialize
         @image1 = Gosu::Image.new('assets/starfighter.bmp')
